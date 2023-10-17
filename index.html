@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOC DASHBOARD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="user">
+            <img src="./logo/logo-fixed-resize.png" alt="ipsipvietname" class="user-img">
+            <div>
+                
+                <p class="bold">IPSIP VIETNAM</p>
+                <p>Admin</p>
+            </div>
+        </div>
+        <div class="link-item top">
+            <div class="link-item logo">
+                <ion-icon name="cube-outline"></ion-icon>
+                <span>NOC Dashboard</span>
+            </div>
+            <!--This id use for javascript reponsive-->
+           
+        </div>
+       
+        <ul class="link-items">
+            <li class="link-item active">
+              <a href="#" class="link">
+                <ion-icon name="home-outline"></ion-icon>
+                <span style="--i: 1">Home</span>
+              </a>
+            </li>
+            <li class="link-item">
+              <a href="#" class="link">
+                <ion-icon name="cube-outline"></ion-icon>
+                <span style="--i: 2">dashboard</span>
+              </a>
+            </li>
+            <li class="link-item">
+              <a href="#" class="link"
+                ><ion-icon name="search-outline"></ion-icon>
+                <span style="--i: 3">search</span>
+              </a>
+            </li>
+            <li class="link-item">
+              <a href="#" class="link">
+                <ion-icon class="noti-icon" name="notifications-outline"></ion-icon>
+                <span style="--i: 4">notifications</span>
+                <span class="num-noti">4</span>
+              </a>
+            </li>
+            <li class="link-item">
+              <a href="#" class="link">
+                <ion-icon name="bookmark-outline"></ion-icon
+                ><span style="--i: 5">bookmarks</span>
+              </a>
+            </li>
+            <li class="link-item">
+              <a href="#" class="link">
+                <ion-icon name="cog-outline"></ion-icon>
+                <span style="--i: 6">settings</span>
+              </a>
+            </li>
+            <li class="link-item">
+              <a href="#" class="link">
+                <ion-icon name="help-circle-outline"></ion-icon>
+                <span style="--i: 7">help</span>
+              </a>
+            </li>
+            <li class="link-item">
+                <a href="#" class="link">
+                    <ion-icon name="log-out-outline"></ion-icon>
+                  <span style="--i: 7">Log Out</span>
+                </a>
+              </li>
+            <li class="link-item dark-mode">
+              <a href="#" class="link">
+                <ion-icon name="moon-outline"></ion-icon>
+                <span style="--i: 8">dark mode</span>
+              </a>
+            </li>
+          </ul>
+    </div>
+    <div class="main-content">
+        <div class="card">
+            <div class="card-header">
+              WALLIX
+            </div>
+            <div class="card-content">
+                <table style="width:100%; border-collapse: collapse;">
+                    <tr>
+                      <th colspan="1">Ticket Number</th>
+                      <th colspan="1">Subription</th>
+                      <th colspan="1">Ticket Owner</th>
+                      <th colspan="3">Action Button</th>
+                    </tr>
+                    <tr>
+                        <td colspan="1">0990099</td>
+                        <td colspan="1">Gold</td>
+                        <td colspan="1">Minh Sang</td>
+                        <td colspan="3"><button>ACK</button>
+                            <button>Pending</button>
+                            <button>Close</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+          </div>
+          
+          <div class="card">
+            <div class="card-header">
+              APV
+            </div>
+            <div class="card-content">
+                <table style="width:100%">
+                    <tr>
+                      <th colspan="2">Name</th>
+                      <th colspan="2">Description</th>
+                      <th colspan="2">Action Button</th>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Data 1</td>
+                        <td colspan="2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, nobis, impedit illum voluptatum est recusandae </td>
+                        <td colspan="4"><button>ACK</button>
+                            <button>Pending</button>
+                            <button>Close</button>
+                        </td>
+                        
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script
+        type="module"
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
+  <script src="./index.js"></script>
+</body>
+</html>
